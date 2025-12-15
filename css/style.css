@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f9;
+}
+
+header {
+  background: #002855;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.application-form {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.application-form input,
+.application-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  padding: 10px;
+  background: #002855;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Secret Page */
+.secret {
+  background: url("../assets/miku.jpg") center/cover no-repeat;
+  height: 100vh;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+#game {
+  display: grid;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #555;
+  background: #ccc;
+}
+
+.cell.safe { background: #8f8; }
+.cell.mine { background: red; }
+
+.links a {
+  display: inline-block;
+  margin: 10px;
+  color: #0ff;
+}
